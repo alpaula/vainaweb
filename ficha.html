@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Vai na Web</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="menu">
+			<img class="menu__logo2" src="assets/logo_VnW.svg">
+			<div class="menu__caixa--itens">
+				<a class="menu__itens" href="index.html">< sobre ></a>
+				<a class="menu__itens" href="#módulos">< módulos ></a>
+				<a class="menu__itens" href="#inscreva-se">< inscreva-se ></a>
+				<a class="menu__itens" href="#apoiar o programa">< apoiar o programa ></a>
+				<a class="menu__itens" href="#estudio vai na web">< estúdio vai na web ></a>
+			</div>
+		</nav>
+	</header>
+	<main class="conteudoFicha">
+		<section class="conteudoFicha__informacao">
+			<h1 class="conteudoFicha__informacao-titulo">Conte um pouco mais sobre você</h1>
+			<p class="conteudoFicha__informacao-paragrafo">
+				Os alunos do Vai na Web são selecionados a partir de uma entrevista. Para participar da seleção, nos conte um pouco mais sobre você preenchendo o formulário a seguir.
+			</p>
+			<div class="conteudoFicha__informacao-box">
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">Nome completo</p>
+					<input class="fichaInformacao__caixa-input fichaName" type="name" name="">
+				</div>
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">Apelido</p>
+					<input class="fichaInformacao__caixa-input fichaApelido" type="name" name="">
+				</div>
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">RG</p>
+					<input class="fichaInformacao__caixa-input fichaRg" type="number" name="" max="9" placeholder="00000000-0
+
+">
+				</div>
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">CPF</p>
+					<input class="fichaInformacao__caixa-input fichaCpf" type="number" name="" max="11" placeholder="000.000.000-00">
+				</div>
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">Data de nascimento</p>
+					<input class="fichaInformacao__caixa-input fichaData" type="date" name="">
+				</div>
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">Endereço</p>
+					<input class="fichaInformacao__caixa-input fichaEndereco" type="text" name="">
+				</div>
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">Telefone</p>
+					<input class="fichaInformacao__caixa-input fichaTelefone" type="tel" name="" placeholder="99999-9999
+
+">
+				</div>
+				<div class="conteudoFicha__informacao-caixa">
+					<p class="fichaInformacao__caixa-paragrafo">Email</p>
+					<input class="fichaInformacao__caixa-input fichaEmail" type="email" name="">
+				</div>
+			</div>
+			<div class="conteudoFicha__informacao-caixa">
+				<h2 class="conteudoFicha__informacao-caixaTitulo">Qual seu nível de escolaridade?</h2>
+				<div class="conteudoFicha__informacao-caixaBox">	
+					<p class="conteudoFicha__informacao-caixaParagrafo">Ensino fundamental:</p>
+					<ul class="fichaInformacao__lista">
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="fundamental" checked>
+							<label class="fichaInformacao__lista-filtroName">Cursando</label>
+						</li>
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="fundamental">
+							<label class="fichaInformacao__lista-filtroName">Incompleto</label>
+						</li>
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="fundamental">
+							<label class="fichaInformacao__lista-filtroName">Completo</label>
+						</li>
+					</ul>
+				</div>
+				<div class="conteudoFicha__informacao-caixaBox">	
+					<p class="conteudoFicha__informacao-caixaParagrafo">Ensino médio:</p>
+					<ul class="fichaInformacao__lista">
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="medio" checked>
+							<label class="fichaInformacao__lista-filtroName">Cursando</label>
+						</li>
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="medio">
+							<label class="fichaInformacao__lista-filtroName">Incompleto</label>
+						</li>
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="medio">
+							<label class="fichaInformacao__lista-filtroName">Completo</label>
+						</li>
+					</ul>
+				</div>
+				<div class="conteudoFicha__informacao-caixaBox">	
+					<p class="conteudoFicha__informacao-caixaParagrafo">Ensino superior:</p>
+					<ul class="fichaInformacao__lista">
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="superior" checked>
+							<label class="fichaInformacao__lista-filtroName">Cursando</label>
+						</li>
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="superior">
+							<label class="fichaInformacao__lista-filtroName">Incompleto</label>
+						</li>
+						<li class="fichaInformacao__lista-filtro">
+							<input class="fichaInformacao__lista-filtroInput" type="radio" name="superior">
+							<label class="fichaInformacao__lista-filtroName">Completo</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="conteudoFicha__informacao-caixa">
+				<h2 class="conteudoFicha__informacao-caixaTitulo">O que você faz atualmente?</h2>
+				<ul class="fichaInformacao__lista">
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="ocupacao" checked>
+						<label class="fichaInformacao__lista-filtroName">Estudo</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="ocupacao">
+						<label class="fichaInformacao__lista-filtroName">Trabalho</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="ocupacao">
+						<label class="fichaInformacao__lista-filtroName">Estudo e trabalho</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="ocupacao">
+						<label class="fichaInformacao__lista-filtroName">Não estudo nem trabalho</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="ocupacao">
+						<label class="fichaInformacao__lista-filtroName">Procurando emprego</label>
+					</li>
+				</ul>
+			</div>
+			<div class="conteudoFicha__informacao-caixa">
+				<h2 class="conteudoFicha__informacao-caixaTitulo">Marque os seus conhecimentos em informática</h2>
+				<ul class="fichaInformacao__lista">
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="checkbox" name="office">
+						<label class="fichaInformacao__lista-filtroName"><span>Pacote Office</span>(Windows, Word, Excel, Power Point)</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="checkbox" name="internet">
+						<label class="fichaInformacao__lista-filtroName">Internet</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="checkbox" name="logica">
+						<label class="fichaInformacao__lista-filtroName">Lógica de programação</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="checkbox" name="html">
+						<label class="fichaInformacao__lista-filtroName">HTML</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="checkbox" name="css">
+						<label class="fichaInformacao__lista-filtroName">CSS</label>
+					</li>
+				</ul>
+			</div>
+			<div class="conteudoFicha__informacao-caixaBox">	
+				<h2 class="conteudoFicha__informacao-caixaTitulo">Você tem computador em casa?</h2>
+				<div class="fichaInformacao__lista-filtro">
+					<input class="fichaInformacao__lista-filtroInput" type="radio" name="frequencia" checked>
+					<label class="fichaInformacao__lista-filtroName">Sim</label>
+				</div>
+				<div class="fichaInformacao__lista-filtro">
+					<input class="fichaInformacao__lista-filtroInput" type="radio" name="frequencia">
+					<label class="fichaInformacao__lista-filtroName">Não</label>
+				</div>
+			</div>
+			<div class="conteudoFicha__informacao-caixaBox">	
+				<h2 class="conteudoFicha__informacao-caixaParagrafo">Por que você deseja fazer esse curso?</h2>
+					<input class="conteudoFicha__informacao-caixaInput" type="text" name="">
+			</div>
+			<div class="conteudoFicha__informacao-caixaBox">	
+				<h2 class="conteudoFicha__informacao-caixaTitulo">
+					Este é um curso intensivo, toda aula terá conteúdo novo. Você está disposto a frequentar mais de 80% das aulas?
+				</h2>
+				<div class="fichaInformacao__lista-filtro">
+					<input class="fichaInformacao__lista-filtroInput" type="radio" name="frequencia" checked>
+					<label class="fichaInformacao__lista-filtroName">Sim</label>
+				</div>
+				<div class="fichaInformacao__lista-filtro">
+					<input class="fichaInformacao__lista-filtroInput" type="radio" name="frequencia">
+					<label class="fichaInformacao__lista-filtroName">Não</label>
+				</div>
+			</div>
+			<div class="conteudoFicha__informacao-caixaBox">	
+				<h2 class="conteudoFicha__informacao-caixaTitulo">
+					Quantas horas de estudo semanal você está disposto a dedicar para leitura de livros, apostilas e prática de exercícios desse curso?
+				</h2>
+				<h3 class="conteudoFicha__informacao-caixaSubtitulo">
+					Para alcançar um bom desempenho é necessário que você também estude em casa. Então, responda com sinceridade!
+				</h3>
+				<ul class="fichaInformacao__lista">
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="estudo" checked>
+						<label class="fichaInformacao__lista-filtroName">Menos de 2 horas</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="estudo">
+						<label class="fichaInformacao__lista-filtroName">Entre 2 e 4 horas</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="estudo">
+						<label class="fichaInformacao__lista-filtroName">Mais de 4 horas</label>
+					</li>
+				</ul>
+			</div>
+			<div class="conteudoFicha__informacao-caixaBox">	
+				<h2 class="conteudoFicha__informacao-caixaTitulo">Qual o tamanho da sua camisa?</h2>
+				<ul class="fichaInformacao__lista">
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="camisa" checked>
+						<label class="fichaInformacao__lista-filtroName">P</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="camisa">
+						<label class="fichaInformacao__lista-filtroName">M</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="camisa">
+						<label class="fichaInformacao__lista-filtroName">G</label>
+					</li>
+					<li class="fichaInformacao__lista-filtro">
+						<input class="fichaInformacao__lista-filtroInput" type="radio" name="camisa">
+						<label class="fichaInformacao__lista-filtroName">GG</label>
+					</li>
+				</ul>
+			</div>
+			<a class="conteudoFicha__informacao-botao" href="confirmacao.html"><button>Enviar</button></a>
+		</section>
+	</main>
+	<footer class="rodape">
+		<div class="rodape__blocoleft">
+			<p class="rodape__blocoleft--texto">{ O Vai Na Web é um programa gratuito de educação digital avançada, desenhado para jovens de 16 a 29 anos moradores de favelas. Com metodologia própria e inovadora promove o acesso à tecnologia e forma profissionais capacitados e apaixonados pela programação.<br>}
+			</p>
+			<button class="rodape__blocoleft--botao">Apoie o programa</button>
+			<div class="rodape__blocoleft__container">
+				<div class="rodape__blocoleft__caixaIcons">
+					<img class="rodape__blocoleft__caixaIcons--icon" src="assets/facebook.svg">
+					<p class="rodape__blocoleft__caixaIcons--adress">/vainaweb</p>
+				</div>
+					<div class="rodape__blocoleft__caixaIcons">
+					<img class="rodape__blocoleft__caixaIcons--icon" src="assets/email.svg">
+				<p class="rodape__blocoleft__caixaIcons--adress">vainaweb@precisaser.org</p>
+				</div>
+				<div class="rodape__blocoleft__caixaIcons">
+					<img class="rodape__blocoleft__caixaIcons--icon" src="assets/instagram.svg">
+					<p class="rodape__blocoleft__caixaIcons--adress" >@vainaweb</p>
+				</div>
+				<div class="rodape__blocoleft__caixaIcons">
+					<img class="rodape__blocoleft__caixaIcons--icon" src="assets/Exclusion 2.svg">
+					<p class="rodape__blocoleft__caixaIcons--adress">playlist no Spotify</p>
+				</div>
+			</div>
+		</div>
+		<div class="rodape__blocoRight">
+			<p class="rodape__blocoRight--texto">Realização</p>
+			<img class="rodape__blocoRight--icons" src="assets/PS-Logotipo.svg">
+			<p class="rodape__blocoRight--texto">Apoio</p>
+			<div class="rodape__blocoRight__caixa">
+				<img class="rodape__blocoRight--icons" src="assets/proa.png">
+				<img class="rodape__blocoRight--icons" src="assets/educap.png">
+				<img class="rodape__blocoRight--icons" src="assets/1sti_logo.svg">
+			</div>
+			<img class="rodape__blocoRight__imagem" src="assets/trioalunos">
+		</div>
+	</footer>
+</body>
+</html>
